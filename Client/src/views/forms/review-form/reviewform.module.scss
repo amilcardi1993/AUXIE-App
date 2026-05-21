@@ -1,0 +1,26 @@
+.form {
+    max-width: 100%;
+    background-color: #f9f7e8; /* Color amarillo pastel */
+    border-radius: 1rem;
+    border: 2px solid var(--secondary--color-hover);
+    padding: 2rem;
+    border: 2px solid yellow;
+    margin-top: 25%;
+    height: max-content;
+    button {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.pickerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    // margin-bottom: 5rem;
+}
+
+.picker {
+    width: 100%;
+    margin-bottom: 1rem;
+}
